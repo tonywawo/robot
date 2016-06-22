@@ -13,5 +13,78 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\robot">
+      <UniqueIdentifier>{421ebd1d-b2bb-465f-a3d7-dd9002c699cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\json">
+      <UniqueIdentifier>{1668601d-baa7-4c37-9b4c-847a891deefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\curl">
+      <UniqueIdentifier>{e4391318-94ed-4a44-962a-c65f2681d7a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="robot.cpp">
+      <Filter>源文件\robot</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件\robot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib_json\json_reader.cpp">
+      <Filter>源文件\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib_json\json_value.cpp">
+      <Filter>源文件\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib_json\json_writer.cpp">
+      <Filter>源文件\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net\curl\curl.cpp">
+      <Filter>源文件\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net\curl\curlprotocol.cpp">
+      <Filter>源文件\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net\curl\md5.cpp">
+      <Filter>源文件\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net\curl\okcoinapi.cpp">
+      <Filter>源文件\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net\curl\string.cpp">
+      <Filter>源文件\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\net\curl\uri.cpp">
+      <Filter>源文件\curl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>源文件\robot</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>源文件\robot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\curl\curl.h">
+      <Filter>源文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\curl\curlprotocol.h">
+      <Filter>源文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\curl\md5.h">
+      <Filter>源文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\curl\okcoinapi.h">
+      <Filter>源文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\curl\string.h">
+      <Filter>源文件\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\net\curl\uri.h">
+      <Filter>源文件\curl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\lib\libcurl.dll" />
   </ItemGroup>
 </Project>
